@@ -11,7 +11,7 @@ const enableDark = () => {
 
 const disableDark = () => {
     document.body.classList.remove('darktheme');
-    localStorage.setItem('darkTheme', null);
+    localStorage.setItem('darkTheme', 'enabled');
     themeToggle.innerHTML = `<i id="bicon" data-feather="sun"></i>`;
     feather.replace();
 };
